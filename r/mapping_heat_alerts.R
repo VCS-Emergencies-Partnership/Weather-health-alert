@@ -69,7 +69,7 @@ warnings_clean |>
 # Save output
 ggsave("outputs/heat_alert_3.png", width = 170, height = 200, units = "mm")
 
-# Alert 1
+# Alert 4
 warnings_clean |>
   filter(alert_number == "4") |> 
   ggplot() +
