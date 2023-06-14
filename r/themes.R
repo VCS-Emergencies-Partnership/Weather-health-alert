@@ -1,7 +1,7 @@
 theme_map <- function(...) {
   theme_minimal() +
     theme(
-      text = element_text(family = "Arial", color = "#22211d"),
+      text = element_text(family = "Montserrat", color = "#22211d"),
       axis.line = element_blank(),
       axis.text.x = element_blank(),
       axis.text.y = element_blank(),
